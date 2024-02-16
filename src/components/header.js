@@ -31,7 +31,7 @@ function Header() {
                 <HeaderOptions Icon={BusinessCenterIcon} title={"Jobs"} />
                 <HeaderOptions Icon={ChatIcon} title={"Messaging"} />
                 <HeaderOptions Icon={NotificationsIcon} title={"Notifications"} />
-                <HeaderOptions  avatar="https://www.flaticon.com/free-icons/user" title={"Mario"} />
+                <HeaderOptions  avatar="ss" title={"Mario"} />
 
 
             </div>

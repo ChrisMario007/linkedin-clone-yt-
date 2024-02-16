@@ -37,3 +37,15 @@
     display: flex;
     justify-content: space-between;
 }
+
+.sidebar_stat>p {
+    color: grey;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.sidebar_statNumber {
+    color: #0777a3 !important;
+    font-weight: bold;
+}

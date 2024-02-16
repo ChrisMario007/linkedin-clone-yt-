@@ -8,7 +8,7 @@ function Sidebar() {
         <div className='sidebar'>
             <div className="sidebar_top">
                 <img src="./images/background.jpg" alt="" />
-                <Avatar className='sidebar_avatar'/>
+                <Avatar className='sidebar_avatar' />
                 <h2> Christian MArio</h2>
                 <h4>crismario60z6@gmail.com</h4>
             </div>
@@ -18,12 +18,12 @@ function Sidebar() {
                     <p>Who viewed you</p>
                     <p className='sidebar_statNumber'>9,862</p>
                 </div>
-                <div className="sidebar_stat">
+                <div className="sidebar_stats">
                     <div className="sidebar_stat">
                         <p>Views on Post</p>
                         <p className='sidebar_statNumber'>17,862</p>
                     </div>
-                </div>     
+                </div>
             </div>
 
             <div className="sidebar_bottom">

@@ -1,0 +1,20 @@
+.InputOption {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 15px;
+    color: grey;
+    padding: 15px;
+}
+
+.InputOption:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: black;
+    margin-right: 20px;
+
+}
+
+.InputOption > h4{
+    margin-left: 5px;
+}

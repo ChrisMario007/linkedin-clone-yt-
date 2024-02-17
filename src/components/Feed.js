@@ -6,6 +6,7 @@ import ImageIcon from '@mui/icons-material/Image';
 import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
+import Posts from './Posts';
 
 function Feed() {
     return (
@@ -27,8 +28,8 @@ function Feed() {
                 </div>
             </div>
 
+<Posts name={"MAaaaa"} description={"testt this is"} message={"message says wow "}/>
 
-            
         </div>
     )
 }

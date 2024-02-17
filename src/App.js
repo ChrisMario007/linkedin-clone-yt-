@@ -11,16 +11,17 @@ function App() {
   return (
     <div className="app">
       {/* Header */}
-      <Header/>
+      <Header />
 
       {/* App Body */}
-    <div className="app_body">
+      <div className="app_body">
         {/*  Side bar*/}
-      <Sidebar/>
+        <Sidebar />
         {/* Feed */}
-      <Feed />
+        <Feed />
         {/* widgets */}
-    </div>
+        <Widget/>
+      </div>
 
     </div>
   );

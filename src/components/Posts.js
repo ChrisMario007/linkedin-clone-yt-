@@ -14,7 +14,7 @@ function Posts({ name, description, message, photoUrl }) {
                 <Avatar />
                 <div className="post_info">
                     <h2>{name}</h2>
-                    <p>{description}}</p>
+                    <p>{description}</p>
 
                 </div>
             </div>

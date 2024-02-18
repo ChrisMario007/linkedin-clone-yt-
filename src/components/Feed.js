@@ -7,7 +7,8 @@ import SubscriptionsIcon from '@mui/icons-material/Subscriptions';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import CalendarViewDayIcon from '@mui/icons-material/CalendarViewDay';
 import Posts from './Posts';
-import firebase from 'firebase';
+import { db } from './firebase';
+import firebase from "firebase";
 
 function Feed() {
     const [input, setInput] = useState("");
@@ -24,7 +25,7 @@ function Feed() {
             )))
         ))
 
-    }, [])
+    }, []);
 
     const sendPost = e => {
         e.preventDefault();
@@ -58,11 +59,16 @@ function Feed() {
                 </div>
             </div>
 
-            {posts.map((post) => {
-
+            {posts.map(({ id, data:{name, description, message, photoUrl} }) => {
+                <Posts
+                key={id}
+                name={name}
+                description={description}
+                message={message}
+                photoUrl={photoUrl}
+                />
             })}
 
-            <Posts name={"MAaaaa"} description={"testt this is"} message={"message says wow "} />
 
         </div>
     )

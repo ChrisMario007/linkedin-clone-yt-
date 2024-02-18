@@ -28,6 +28,9 @@
 .widgets_article:hover{
     background-color: whitesmoke;
 }
+.widgets_article:hover .widgets_articleLeft >.MuiSvgIcon-root{
+   color: rgb(33, 240, 147);
+}
 
 .widgets_articleLeft{
     color: #0177b7;

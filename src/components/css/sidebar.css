@@ -1,10 +1,10 @@
 .sidebar {
-    top: 80px;
-    position: sticky;
+    
     flex: 0.2;
     border-radius: 10px;
     text-align: center;
     height: fit-content;
+    margin-top: 80px;
 }
 
 .sidebar_avatar {
@@ -44,12 +44,14 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     object-fit: cover;
+    
 }
 
 .sidebar_stat {
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .sidebar_stat>p {
@@ -62,6 +64,7 @@
 .sidebar_statNumber {
     color: #0777a3 !important;
     font-weight: bold;
+    
 }
 
 .sidebar_stats {
@@ -71,6 +74,9 @@
     background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+   
 }
 
 .sidebar_bottom {
@@ -80,6 +86,11 @@
     background-color: white;
     border-radius: 10px;
     margin-top: 10px;
+    top: 310px;
+    position: fixed;
+    width: 17.4%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
 }
 
 .sidebar_recentItems {
@@ -105,4 +116,5 @@
 .sidebar_bottom >p{
     font-size: 13px;
     padding-bottom: 10px;
+    
 }

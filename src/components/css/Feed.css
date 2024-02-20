@@ -1,8 +1,9 @@
 .Feed {
     flex: 0.6;
+    /* top: 100px; */
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 8%;
     /* background-color: red; */
 }
 
@@ -13,6 +14,12 @@
     border-radius: 10px;
     margin-bottom: 20px;
     /* background-color: red; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    position: sticky;
+    top: 80px;
+    z-index: 9999;
+    /* display: none; */
+
 }
 
 .feed_input {

@@ -33,8 +33,11 @@ function Sidebar() {
                     <p>Views on Post</p>
                     <p className='sidebar_statNumber'>17,862</p>
                 </div>
+                <div className="sidebar_stat">
+                    <p>Successful adds </p>
+                    <p className='sidebar_statNumber'>6,432</p>
+                </div>
             </div>
-
 
             <div className="sidebar_bottom">
                 <p>Recent</p>
@@ -45,6 +48,7 @@ function Sidebar() {
                 {recentItem('developer')}
 
             </div>
+
 
         </div>
     )
